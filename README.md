@@ -2,7 +2,11 @@
 Short description and motivation.
 
 ## Usage
-How to use my plugin.
+### Finding the current user
+We expect the Current.user to be present. This should be moved to be a configurable method or lambda.
+
+### Homily::ApplicationController
+Inherit from a configured application controller
 
 ## Installation
 Add this line to your application's Gemfile:
