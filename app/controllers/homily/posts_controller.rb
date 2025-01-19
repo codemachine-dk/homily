@@ -54,7 +54,7 @@ module Homily
 
       # Only allow a list of trusted parameters through.
       def post_params
-        params.expect(post: [ :author_id, :author_type, :title, :description, :published_at ])
+        params.expect(post: [ :author_id, :author_type, :title, :description, :published_at, :body ])
       end
   end
 end
