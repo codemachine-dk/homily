@@ -23,4 +23,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 8.0.1"
+  spec.add_dependency "actiontext", "~> 8.0.1"
+  spec.add_dependency "importmap-rails"
+  spec.add_dependency "propshaft"
 end

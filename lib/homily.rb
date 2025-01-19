@@ -2,5 +2,5 @@ require "homily/version"
 require "homily/engine"
 
 module Homily
-  # Your code goes here...
+  mattr_accessor :importmap, default: Importmap::Map.new
 end
